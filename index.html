@@ -1,77 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- CSS-FILE -->
-  <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- CSS-FILE -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 
-  <!-- GOOGLE-FONTS -->
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+    <!-- GOOGLE-FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Montserrat"
+    />
 
-  <!-- FONT-AWESOME-LIBRARY -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-  crossorigin="anonymous" 
-  referrerpolicy="no-referrer" />
+    <!-- FONT-AWESOME-LIBRARY -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+     <title>Frontend Mentor | Product preview card component</title>
+
+   </head>
+   
+    
   
-  <title>Frontend Mentor | Product preview card component</title>
+  <body>
+    <!-- Left-Side -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <main>
+      <section class="left-side">
+        <div class="image">
+          <img src="./images/image-product-desktop.jpg" alt="" />
+        </div>
+      </section>
 
-<!-- Left-Side -->
-<section class="left-side">
-   <div class="image">
-    <img src="./images/image-product-desktop.jpg" alt="">
-   </div>
-  </section>
+      <!-- Right-Side -->
+      <section class="right-side">
+        <div class="content">
+          <div class="info">
+            <span> Perfume </span>
+            <h1>
+              Gabrielle<br />
+              Essence Eau <br />De Parfum
+            </h1>
 
-  <!-- Right-Side -->
-<section class="right-side">
+            <p>
+              A floral, solar and voluptuous <br />
+              interpretation composed by <br />Olivier Polge,
+              Perfumer-Creator<br />
+              for the House of CHANEL.
+            </p>
 
-  <div class="content">
-    <div class="info">
-     <span> Perfume </span>   
-     <h1>Gabrielle<br> Essence Eau <br>De Parfum</h1>
+            <div class="p-info">
+              <p>$149.99</p>
+              <span>$169.99</span>
+            </div>
 
-  <p>
-      A floral, solar and voluptuous <br> interpretation composed by <br>Olivier Polge, 
-      Perfumer-Creator<br> for the House of CHANEL.
-  </p>   
+            <button>
+              <i class="fa-solid fa-cart-shopping"></i>add to cart
+            </button>
+          </div>
+        </div>
 
+       
+      </section>
+    </main>
 
-    <div class="p-info">
-      <p>$149.99</p>
-      <span>$169.99</span>
-    </div>
-  
-
-  <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button> 
-    </div> 
-
-  
-  </div>
-  
-  <!-- Footer -->
-</section>
-
-  <footer>
+     <!-- Footer -->
+    <footer>
       <div class="attribution">
-    © Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/rachpro1234">EL BarQouQy Rachid</a>.
+        © Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/rachpro1234">EL BarQouQy Rachid</a>.
       </div>
-  </footer>
-
-
-
-</body>
+    </footer>
+  </body>
 </html>
