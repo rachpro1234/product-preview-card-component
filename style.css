@@ -38,8 +38,8 @@ main {
 .right-side {
     display: block;
     position: absolute;
-    top: 25%;
-    left: 50%;
+    top: 23%;
+    left: 47%;
    
 }
 
@@ -169,7 +169,8 @@ main {
 
 @media screen and (max-width: 1200px){
    .right-side {
-      display: none;
+      
+      width: 100%;
    }
 }
 
