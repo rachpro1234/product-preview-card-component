@@ -167,3 +167,17 @@ main {
     text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
  }
 
+@media screen and (max-width: 1200px){
+   .right-side {
+      display: none;
+   }
+}
+
+@media screen and  (min-width: 1200px) {
+   .right-side {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 60px;
+   }
+}
