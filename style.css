@@ -36,12 +36,10 @@ main {
 
 /* This is the right-side of the card */
 .right-side {
-    display: block;
     position: absolute;
     top: 23%;
-    left: 47%;
-   
-}
+    left: 46%;
+ }
 
 .content {
     position: relative;
