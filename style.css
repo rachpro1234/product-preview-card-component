@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family: 'montserrat' serif;
+    background-color: #eee;
+}
+
+/* This is the left-side of the card */
+.left-side {
+   background-color:  hsl(0, 0%, 100%);
+   width: 579px;
+   position: absolute;
+   left: 25%;
+   top: 16%;
+   border-radius: 10px;
+}
+
+.left-side img {
+    width: 293px;
+    position: relative;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/* This is the right-side of the card */
+.right-side {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+   
+}
+
+.content {
+    position: relative;
+    top: 0;
+    left: -23%;
+    padding: 10px;
+    margin: 0;
+}
+
+.info {
+   padding:-50px;
+}
+
+.info span {
+    position: relative;
+    left: -30px;
+    top: -40px;
+    color: #a59191;;
+    letter-spacing: 5px;
+    font-family: mv boli;
+ }
+
+ .info h1 {
+    position: relative;
+    left: -25px;
+    top: -20px;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+ .info p {
+    position: relative;
+    left: -27px;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a59191;
+    line-height: 1.5em;
+    margin-top: 20px;
+ }
+
+ .p-info p {
+    position: relative;
+    left: -79px;
+    top: -20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+ }
+
+ .p-info span {
+    position: relative;
+    left: 100px;
+    top: -53px;
+    text-decoration: line-through;
+    font-size: 13px;
+ }
+
+ .content button {
+    position: relative;
+    left: -10px;
+    top: -18px;
+    text-align: center;
+    padding: 10px 60px;
+    background-color: green;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.6s ease-in;
+ }
+
+ .content button:hover {
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+ }
+
+ .content button i {
+    margin-right: 10px;
+ }
+
+ /* This is the Footer Section */
+.attribution {
+    position: relative;
+    top: 680px;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -210px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #000;
+    font-size: 30px;
+     
+ }
+
+ footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -26px;
+    list-style: none;
+ }
+
+ .attribution a {
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.6s ease-in;
+    font-family: mv boli;
+ }
+
+ .attribution a:hover {
+    color: green;
+    transform: scale(1.1);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+ }
